@@ -31,7 +31,8 @@ def cheapest_shipping(weight):
 #if not premium will be the cheapest
   else:
     return "The cheapest method will be premium ground shipping and will cost £" + str(premium_ground_shipping)
-  
+
+#test
 print(cheapest_shipping(4.8))
 print(cheapest_shipping(41.5))
   
